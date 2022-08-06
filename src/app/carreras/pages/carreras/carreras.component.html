@@ -1,0 +1,22 @@
+
+
+
+<div class="d-flex">
+    <div class="contenedor">
+        <div class="container">
+            
+           <!-- CARGANADO  -->
+           <app-loading [mostrar]="(carreras.length === 0)"> </app-loading>
+            <div class="row row-cols-2 sombras">
+
+                <div class="col mb-4"
+                        *ngFor="let c of carreras"
+                    >
+                  <!-- tarjetas -->
+                    <app-cards class="" [carrera]="c" ></app-cards>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

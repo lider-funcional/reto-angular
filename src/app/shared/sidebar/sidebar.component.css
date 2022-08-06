@@ -1,0 +1,29 @@
+
+
+  main {
+    height: 1000vh;
+    /* height: -webkit-fill-available; */
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  ul{
+    padding-top: 300px;
+  }
+
+  .grey{
+    color:grey;
+  }
+  
+  .activo{
+    color: #2196f3;
+  }
+
+  li{
+    cursor:pointer;
+  }
+
+  .sombras{
+    box-shadow: 1px 5px 5px 1px #e0e0e0;
+}

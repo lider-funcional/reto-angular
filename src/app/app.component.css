@@ -1,0 +1,15 @@
+
+
+app-menu{
+        
+    position: absolute; 
+    z-index: 100;    
+
+}
+app-sidebar{
+    
+    position: fixed; 
+    z-index: 99;    
+
+}
+

@@ -1,0 +1,32 @@
+
+<div class="card sombras">
+  <div class="card-body">
+      <div class="clearfix">
+          <h5 class="card-title float-start">{{ carrera.titulo }}</h5>
+          
+          <button class="btn btn-warning yelow float-end ml-2 btn-sm">Creación</button>
+
+          <button class="btn btn-primary float-end btn-sm">{{ carrera.facultad }}</button>
+          
+
+      </div>
+      <hr>
+    <p class="card-text " >
+      
+      <span class="material-icons">perm_identity</span>
+      <span class="text-muted info">{{ carrera.tipo }}</span>
+
+      <span class="material-icons">room</span>
+      <span class="text-muted info">{{ carrera.campus }}</span>
+
+      <span class="material-icons">{{ carrera.iconMetodologia }}</span>
+      <span class="text-muted info">{{ carrera.metodologia }}</span>
+      
+      
+      
+      <!-- <small class="text-muted">Barranquilla y Cucuta</small>
+      <small class="text-muted">Combinada</small> -->
+    </p>
+    
+  </div>
+</div>

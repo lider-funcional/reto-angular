@@ -1,0 +1,58 @@
+
+
+.menu{
+    margin-bottom: 5px;
+}
+
+.font {
+    
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.logo{
+
+    cursor: pointer;
+    height: 50px;
+    margin-left: 3%;
+}
+
+
+.sombras{
+    box-shadow: 1px 5px 5px 1px #e0e0e0;
+}
+
+.usuario{
+    
+    text-align: right;
+    width: 30%;
+
+}
+
+
+
+.usuario img{
+    cursor: pointer;
+}
+
+
+.usuario span {
+    cursor: pointer;
+    margin-left: 2%;
+        
+}
+
+.usuario span:hover {
+    
+    font-style: oblique;
+}
+
+
+
+.usuario .material-icons{
+    font-size: 20px;
+    margin-right: 1%;
+    vertical-align: middle;
+
+
+}

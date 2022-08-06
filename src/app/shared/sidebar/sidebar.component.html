@@ -1,0 +1,19 @@
+  
+  <main class="d-flex flex-nowrap sombras">
+    
+  <div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem;">
+    
+    <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+      <li class="nav-item" 
+          *ngFor="let item of menuItem"
+          [routerLink]="item.ruta"
+          
+        >
+        <a class="nav-link py-3 border-bottom rounded-0 grey" routerLinkActive="activo">
+          <span class="material-icons">{{ item.icon }}</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</main>

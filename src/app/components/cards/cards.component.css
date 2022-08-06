@@ -1,0 +1,53 @@
+
+
+h5{
+    color: #2d2c55;
+}
+
+button{
+    margin-left: 10px;
+    background-color: #293D96;
+    
+}
+
+.yelow{
+    background-color: #ffe6b0;
+    border-color: #FAD214;
+    color: #FF9924;
+}
+
+.yelow:hover{
+    background-color: #FF9924;
+    border-color: #FAD214;
+    color: white;
+}
+
+.yelow:active{
+    background-color: #FF9924;
+    
+}
+
+
+p .material-icons{
+    color: #9e9e9e !important;
+    font-size: 15px;
+    margin-right: 1%;
+    vertical-align: middle;
+
+
+}
+
+.info{
+    color: #9e9e9e !important;
+    font-size: 11px;
+    margin-right: 2%;
+    vertical-align: middle;
+}
+
+.sombras{
+    box-shadow: 1px 5px 5px 5px #e0e0e0;
+}
+
+.card{
+    
+}
